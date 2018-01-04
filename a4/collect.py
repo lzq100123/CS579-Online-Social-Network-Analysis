@@ -7,10 +7,10 @@ from TwitterAPI import TwitterAPI
 import tweepy as ty
 import numpy as np
 
-consumer_key = 'Vq5ZjUfUjFnbLS21a9JgiTmqs'
-consumer_secret = 'E0kxRSIrf0MBGaWq5V2ieX9WCnwzg0DID2m59wjmuuB15rWVfE'
-access_token = '769760858721259524-eQBX2ZburR4dtS220SgypNlJDKhfgTg'
-access_token_secret = 'ZAtEp4heRi8XSN2YgXbvEIARj0TPm7RmJQbRimnqmsDkc'
+consumer_key = 'put your own key'
+consumer_secret = 'put your own key'
+access_token = 'put your own key'
+access_token_secret = 'put your own key'
 
 def get_twitter():
     return TwitterAPI(consumer_key, consumer_secret, access_token, access_token_secret)
