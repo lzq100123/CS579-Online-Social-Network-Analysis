@@ -1,0 +1,12 @@
+ECCENTRICITY for Weenies:
+
+CIRCLE = 0
+
+ELLIPSE:
+0.0167 Earth
+0.2488 Pluto
+0.9671 Halley’s Comet
+
+PARABOLA = 1
+
+HYPERBOLA &gt; 1

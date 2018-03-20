@@ -1,0 +1,1 @@
+@nweranj Thanks, but I’m usually content with two, at most three, significant figures. Anything more tends to distract the reader.

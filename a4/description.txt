@@ -1,0 +1,7 @@
+The program picks 80 twitter users from top100 famous users which have largest number of followers to analyze the social network formation with these accounts and their followers,and it also analyzes the sentiment for each tweet collected from these users. And we draw a social network graph about these users according to most common friends
+
+In cluster, the program puts all users (including famous users and their followers) into several clusters by using Girvan Newman algorithm. This alogrithm is slow when it deals with a huge graph since it will set each nodes as root and tranverse the whole graph with corresponding root node to compute edge betweeness.
+
+In classification, the program classifies each tweet into two classes which are positive and negative by using logistic regression. We train this model by using 6215 positive and 6909 negative tweets, then classify tweets collected from collect.py.
+
+After running each python file, you will find each output in its corresponding folder
